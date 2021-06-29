@@ -18,6 +18,10 @@
     "predeploy": "npm run build",
     "deploy": "lerna publish -m \"chore: Publish\" --independent"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apollographql/apollo-link-state.git"
+  },
   "bundlesize": [
     {
       "name": "apollo-link-state",
